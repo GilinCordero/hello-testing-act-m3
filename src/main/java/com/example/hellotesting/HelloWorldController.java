@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api")
-public class HelloWorldController throws InterrumptedException {
+public class HelloWorldController throws InterruptedException {
     
     @GetMapping("/hello")
     public String hello()  {
